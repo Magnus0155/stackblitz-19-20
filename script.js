@@ -8,7 +8,7 @@ console.log(inputField,addButton,todoList);
 addButton.addEventListener("click", function () {
     console.log("legg til knappen er trykket!");
 
-// lager et nytt element inputFieldValue. Etterpå lagres verdien fra inputField til inputfieldValue med å bruke .value .
+// lager et nytt element? inputFieldValue. Etterpå lagres verdien fra inputField til inputfieldValue med å bruke .value .
     const inputFieldValue = inputField.value;
     console.log(inputFieldValue);
 
@@ -22,7 +22,7 @@ addButton.addEventListener("click", function () {
 
 
     //lag en variabel som lager en knapp for ferdig
-//lager en knapp som sier ferdig. Markerer det som som er lagt til for ferdig. 
+//laget et nytt element. Det er en knapp som sier ferdig. Markerer det som som er lagt til for ferdig. 
     const doneItem = document.createElement("button");
     doneItem.textContent = "Done";
     todoItem.appendChild(doneItem);
@@ -36,7 +36,7 @@ addButton.addEventListener("click", function () {
         }
     });
 
-/* Laget et nutt element. Slett knappen sletter det som er markert ferdig.
+/* Laget et nytt element. Slett knappen sletter det som er markert ferdig.
 /  Hvis ikke viser det en fane om at ferdig knappen må trykkes*/
     const deleteItem = document.createElement("button");
     deleteItem.textContent = "Slett";
