@@ -1,14 +1,18 @@
+// de 3 const linker/henter HTML elementene til JS så de kan brukes her.
 const inputField = document.querySelector("#inputField");
 const addButton = document.querySelector("#addButton");
 const todoList = document.querySelector("#todoList");
 console.log(inputField,addButton,todoList);
 
+// Legger til en eventListener til addButton. Det gjør addButton interaktiv.
 addButton.addEventListener("click", function () {
     console.log("legg til knappen er trykket!");
 
+// lager et nytt element inputFieldValue. Etterpå lagres verdien fra inputField til inputfieldValue med å bruke .value .
     const inputFieldValue = inputField.value;
     console.log(inputFieldValue);
 
+// Lager et nytt element todoItem. Etterpå lages texsten som blir skrevet i textbokesen. 
     const todoItem = document.createElement("li");
     todoItem.textContent = inputFieldValue;
     todoList.appendChild(todoItem);
