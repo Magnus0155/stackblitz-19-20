@@ -14,4 +14,4 @@ addEventListener: legges til et element for å aktivere en hendelse.
 
 if og else: If og else statements skal utføre handlinger utifra om betingelsene er sant eller ikke.
 
-conitans, remove, add og alert virker selvforklarende. 
+conitans, remove, add og alert: inneholder, fjern, legg till og lager en varsel.

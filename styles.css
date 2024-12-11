@@ -3,6 +3,9 @@ body {
   margin: 0;
   background-color: #fdfdfd;
   color: #0d0d0d;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 /* HEADER */
@@ -12,6 +15,8 @@ header {
   align-items: center;
   padding: 8px 0;
   margin: 0 8px;
+
+  
 }
 
 .headerLogo {
@@ -65,3 +70,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* @media*/
+/*ikke ferdig */
+@media (min-width: 426px) {
+  section {
+    height: 50%vh;
+  }
+  
+} 
