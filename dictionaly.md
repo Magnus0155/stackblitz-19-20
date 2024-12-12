@@ -6,7 +6,7 @@ console.log: ager en meldig du kan sjekke i inspeksjonsverktøyet og kan fortell
 
 let og const: Brukes for å lage variabler. const er ...konstant og let er mer fleksibel feks kan endre verdi.
 
-textContent: Skrive text i JS  istedenfor <p> i html blant annet.
+textContent: Skrive text i JS  istedenfor <p> i html feks.
 
 appendChild: linke et ''child'' element i en ''parent''.
 
