@@ -64,6 +64,7 @@ section {
 
 .done {
   text-decoration: line-through;
+  
 }
 /* FOOTER */
 footer {
@@ -72,10 +73,12 @@ footer {
 }
 
 /* @media*/
-/*ikke ferdig */
-@media (min-width: 426px) {
+/*ikke ferdig, bakgrunnsbildet ser ikke helt riktig ut i liten skjerm */
+@media (max-width: 426px) {
   section {
-    height: 50%vh;
+    height: 150vh;
+    width: 120%;
+    
   }
   
 } 
